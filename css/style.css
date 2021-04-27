@@ -3,3 +3,41 @@
     margin:0;
     box-sizing: border-box;
 }
+/* debug */
+.debug .container{
+    height:800px;
+    background-color: brown;
+
+}
+.debug .box{
+    height:300px;
+    background-color:green;
+    border: 1px soldi black;
+}
+.debug .img{
+    background-color: hotpink;
+    height:70%;
+}
+.debug .text{
+    background-color: indigo;
+    height: 30%;
+}
+/* fine debug */
+.clearfix::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+.container{
+    width:1170px;
+    margin: 0 auto;
+  }
+
+.box{
+    width: calc(100% / 3 - 10px);
+    float: left;
+    margin: 5px;
+}
+
+ 
+
